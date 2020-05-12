@@ -1,7 +1,9 @@
 language: node_js
 cache: yarn
 dist: bionic
-
+arch: 
+    - amd64
+    - arm64
 jobs:
   include:
   - os: linux
